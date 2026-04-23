@@ -4,6 +4,7 @@
   "github_username": "",
   "github_reponame": "",
   "author_name": "jloehel",
+  "email": "",
   "role_dir": "{{ cookiecutter.role_name.lower().replace(' ', '-') }}",
   "role_slug": "{{ cookiecutter.role_name.lower().replace(' ', '_').replace('-', '_') }}"
 }
