@@ -2,7 +2,7 @@
 galaxy_info:
   author: {{ cookiecutter.author }}
   description: {{ cookiecutter.description }}
-  license: MIT
+  license: {{ cookiecutter.license }}
   min_ansible_version: 2.10
   role_name: {{ cookiecutter.role_slug }}
 
