@@ -1,0 +1,29 @@
+!*
+
+# Environment
+.env
+env
+ENV
+
+### VirtualEnv ###
+.venv*/
+venv*/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code/Vim ... and logs
+.history/
+.ionide
+*.log
+*.swp
+
+# Tox
+.tox
+
+.DS_Store

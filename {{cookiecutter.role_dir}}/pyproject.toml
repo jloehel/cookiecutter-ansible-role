@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "{{cookiecutter.role_slug}}"
+version = "0.1.0"
+description = "{{cookiecutter.description}}"
+authors = ["{{cookiecutter.author}}"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+ansible = "^10.7"
+ansible-compat = "^25.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1"
+pylint = "^3.3"
+flake8 = "^7.2"
+cookiecutter = "^2.6"
+pre-commit = "^4.2"
+molecule = {extras = ["docker"], version = "^25.4"}
+molecule-plugins = {extras = ["vagrant"], version = "^23.7"}
+ansible-lint = { version = "^25.4", markers = "platform_system != 'Windows'" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
